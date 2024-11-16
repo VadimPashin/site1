@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Сайт по проектной деятельности">
+    <link rel="icon" href="Россия.ico">
+    <title>Проект</title>
+</head>
+<body style="background-color: rgb(30, 30, 30); background: url(Background.png);
+ background-size: cover;">
+    <div id="EnterBox" style="position: absolute; background-color: rgb(30, 30, 30); width: 30%; height: 40%; left: 35%; top: 30%;">
+        <label for="login" style="position: absolute; top: 27%; left: 10%; color: white; width: 10%; height: 15%;
+         font-size: 100%;">Логин:</label>
+        <input type="text" id="login" name="login" style="position: absolute; width: 60%; left: 25%;
+         top: 23%; background-color: rgb(20, 20, 20); border: none; color: white; height: 15%;">
+         <label for="password" style="position: absolute; top: 52%; left: 10%; color: white; width: 10%;
+          height: 15%;font-size: 100%;">Пароль:</label>
+        <input type="password" id="password" name="password" style="position: absolute; width: 60%; left: 25%;
+         top: 50%; background-color: rgb(20, 20, 20); border: none; color: white; height: 15%;">
+         <button id="Enter" style="position: absolute; width: 70%; left: 15%; height: 7%;
+          top: 90%; background-color: rgb(23, 196, 23); border: none; color: white; font-size: 100%;">ВОЙТИ</button>
+        <p id="EnterError" style="position: absolute; width: 100%; height: 10%; font-size: 100%; top: 70%; text-align: center; color: red; "></p>
+
+    </div>
+</body>
+
+<script src="main.js"></script>
+<script src="accaunts.txt" id="accaunts" type="file"></script>
+</html>
